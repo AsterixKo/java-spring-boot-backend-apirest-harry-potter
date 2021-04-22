@@ -34,16 +34,16 @@ localhost:8080/api/movies
 
 ## Listado de endpoints:
 
-ConsultarPeliculasApiExterna (GET):
+ConsultarPeliculasApiExterna (GET):  
 http://www.omdbapi.com/?apikey=TU_API_KEY&s=Harry Potter&type=movie&r=json
 
-Get Movies (GET):
+Get Movies (GET):  
 localhost:8080/api/movies
 
-Get Movie por Id (GET):
+Get Movie por Id (GET):  
 localhost:8080/api/movies/4
 
-Crear Movie (POST):
+Crear Movie (POST):  
 localhost:8080/api/movies
 
 {
@@ -53,7 +53,7 @@ localhost:8080/api/movies
         "stars": 10
     }
 
-Actualizar Movie (PUT):
+Actualizar Movie (PUT):  
 localhost:8080/api/movies/4
 
 {
@@ -63,8 +63,8 @@ localhost:8080/api/movies/4
         "stars": 5
     }
 
-Delete Movie (DELETE):
+Delete Movie (DELETE):  
 localhost:8080/api/movies/1
 
-Search and populate DB(GET):
+Search and populate DB(GET):  
 localhost:8080/api/searchAndPopulate/Harry Potter
